@@ -19,6 +19,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <link rel="stylesheet" href="<?php echo base_url();?>assets/css/flexslider.css" type="text/css" media="screen" />
 <!--//Custom Theme files -->
 <!--js-->
+
 <script src="<?php echo base_url();?>assets/js/jquery-1.11.1.min.js"></script>
 <script src="<?php echo base_url();?>assets/js/modernizr.custom.js"></script>
 <!--//js-->
@@ -69,10 +70,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<!--navbar-header-->
 					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 						<ul class="nav navbar-nav top-nav-info navbar-left">
-							<li><a href="index.html" class="active">Beranda</a></li>
-							<li><a href="products.html">Produk</a></li>
-							<li><a href="business.html">Peluang Bisnis</a></li>
-							<li><a href="about.html">D&S Muslim</a></li>
+							<li><a href="<?=base_url()?>home" <?=$tab?> >Beranda</a></li>
+							<li><a href="<?=base_url()?>products" <?=$tab1?>>Produk</a></li>
+							<li><a href="<?=base_url()?>business" <?=$tab2?>>Peluang Bisnis</a></li>
+							<li><a href="<?=base_url()?>about" <?=$tab3?>>D&S Muslim</a></li>
 						</ul>
 						<ul class="nav navbar-nav top-nav-info2 navbar-right">
 							<li><a href="login.html" class="active2">Masuk</a></li>
